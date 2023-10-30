@@ -6,7 +6,7 @@ const Counter = () => {
   const dispatch = useDispatch();
 
   const counterButtonHandler = (event) => {
-    dispatch({ type: event.target.name.toUpperCase() });
+    dispatch({ type: event.target.name });
   };
 
   const toggleCounterHandler = () => {};
